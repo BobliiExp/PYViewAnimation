@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C48092AD224F4CD200A53190 /* PYViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48092AC224F4CD200A53190 /* PYViewAnimation.swift */; };
 		C4E687F622436CA000ECDE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E687F522436CA000ECDE81 /* AppDelegate.swift */; };
 		C4E687F822436CA000ECDE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E687F722436CA000ECDE81 /* ViewController.swift */; };
 		C4E687FB22436CA000ECDE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E687F922436CA000ECDE81 /* Main.storyboard */; };
 		C4E687FD22436CA200ECDE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E687FC22436CA200ECDE81 /* Assets.xcassets */; };
 		C4E6880022436CA200ECDE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E687FE22436CA200ECDE81 /* LaunchScreen.storyboard */; };
-		C4E6880822436CCD00ECDE81 /* PYViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E6880722436CCD00ECDE81 /* PYViewAnimation.swift */; };
 		C4E6880E22436D7E00ECDE81 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = C4E6880C22436D7E00ECDE81 /* animation.json */; };
 		C4E6881022436E2F00ECDE81 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4E6880F22436E2F00ECDE81 /* readme.txt */; };
 		C4E688292244D43700ECDE81 /* ic_loading008.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E688122244D43700ECDE81 /* ic_loading008.png */; };
@@ -41,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C48092AC224F4CD200A53190 /* PYViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYViewAnimation.swift; sourceTree = "<group>"; };
 		C4E687F222436CA000ECDE81 /* CustomAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E687F522436CA000ECDE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E687F722436CA000ECDE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		C4E687FC22436CA200ECDE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E687FF22436CA200ECDE81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E6880122436CA200ECDE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4E6880722436CCD00ECDE81 /* PYViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYViewAnimation.swift; sourceTree = "<group>"; };
 		C4E6880922436D7B00ECDE81 /* CustomAnimation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomAnimation-Bridging-Header.h"; sourceTree = "<group>"; };
 		C4E6880C22436D7E00ECDE81 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
 		C4E6880F22436E2F00ECDE81 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
@@ -88,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C48092AB224F4CD200A53190 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6880F22436E2F00ECDE81 /* readme.txt */,
+				C4E6880C22436D7E00ECDE81 /* animation.json */,
+				C48092AC224F4CD200A53190 /* PYViewAnimation.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		C4E687E922436CA000ECDE81 = {
 			isa = PBXGroup;
 			children = (
@@ -107,16 +117,14 @@
 		C4E687F422436CA000ECDE81 /* CustomAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C48092AB224F4CD200A53190 /* Classes */,
 				C4E688112244D43700ECDE81 /* Images */,
-				C4E6880F22436E2F00ECDE81 /* readme.txt */,
-				C4E6880C22436D7E00ECDE81 /* animation.json */,
 				C4E687F522436CA000ECDE81 /* AppDelegate.swift */,
 				C4E687F722436CA000ECDE81 /* ViewController.swift */,
 				C4E687F922436CA000ECDE81 /* Main.storyboard */,
 				C4E687FC22436CA200ECDE81 /* Assets.xcassets */,
 				C4E687FE22436CA200ECDE81 /* LaunchScreen.storyboard */,
 				C4E6880122436CA200ECDE81 /* Info.plist */,
-				C4E6880722436CCD00ECDE81 /* PYViewAnimation.swift */,
 				C4E6880922436D7B00ECDE81 /* CustomAnimation-Bridging-Header.h */,
 			);
 			path = CustomAnimation;
@@ -249,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E6880822436CCD00ECDE81 /* PYViewAnimation.swift in Sources */,
+				C48092AD224F4CD200A53190 /* PYViewAnimation.swift in Sources */,
 				C4E687F822436CA000ECDE81 /* ViewController.swift in Sources */,
 				C4E687F622436CA000ECDE81 /* AppDelegate.swift in Sources */,
 			);
